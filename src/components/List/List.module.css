@@ -1,0 +1,32 @@
+.list {
+  margin-top: 30px;
+  color: #223c55;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
